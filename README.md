@@ -30,7 +30,7 @@ cd claude-desktop-fedora
 
 # Build the package
 sudo ./build-fedora.sh
-sudo dnf install build/electron-app/x86_64/claude-desktop_0.7.7-1.fc41.x86_64.rpm
+sudo dnf install build/electron-app/aarch64/claude-desktop-0.8.0-1.fc41.aarch64.rpm
 
 # The script will automatically:
 # - Check for and install required dependencies
